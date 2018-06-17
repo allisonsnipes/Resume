@@ -9,21 +9,29 @@
 
 /*@ regular sizing*/
 section {
+	position: top;
 	float: left;
 	width: 50%;
 	padding: 15px;
+	left: 0px;
 }
 
 main {
+	position: top;
 	float: right;
 	width: 50%;
 	padding: 15px;	
+	right: 0px;
 }
 
-footer, address {
+footer{
+	position:fixed;
 	float: bottom;
 	width: 100%;
+	left:0px;
+	bottom:0px;
 }
+
 /*attempt at responsiveness for maintaining correct layout on devices*/
 @media screen and (max-width: 600px) {
 	section { width: 50% }
