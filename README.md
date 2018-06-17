@@ -1,0 +1,1 @@
+My challenge is to create a web page for Sally Student's resume, focusing on using semantic HTML. The following should be used for the page: Name, Email address (make one up) as a link, Phone number (make one up), and a picture.
