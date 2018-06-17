@@ -20,6 +20,10 @@ main {
 	padding: 15px;	
 }
 
+footer, address {
+	float: bottom;
+	width: 100%;
+}
 /*attempt at responsiveness for maintaining correct layout on devices*/
 @media screen and (max-width: 600px) {
 	section { width: 50% }
