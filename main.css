@@ -3,12 +3,10 @@
 	color: black;
 	background-color: #beige;
 	margin: 20px 10px 20px 10px;
-	box-sizing: border-box;
 }
 
 header {
 	text-align: center;
-	width: 100%;
 }
 
 /*@ regular sizing*/
@@ -34,10 +32,4 @@ footer{
 	width: 100%;
 	left:0px;
 	bottom:0px;
-}
-
-/*attempt at responsiveness for maintaining correct layout on devices*/
-@media screen and (max-width: 600px) {
-	section { width: 50% }
-	main {width: 50%}
 }
