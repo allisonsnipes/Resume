@@ -9,10 +9,8 @@ header {
 	text-align: center;
 }
 
-.block {
-	width:300px;}
-.blockLeft {f
-	loat:left;}
+.blockLeft {
+	float:left;}
 .blockRight {
 	float:right;}
 
