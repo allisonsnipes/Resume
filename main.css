@@ -9,7 +9,14 @@ header {
 	text-align: center;
 }
 
-/*@ regular sizing*/
+.block {
+	width:300px;}
+.blockLeft {f
+	loat:left;}
+.blockRight {
+	float:right;}
+
+/*@ regular sizing
 section {
 	float: left;
 	width: 50%;
@@ -23,6 +30,8 @@ main {
 	padding: 15px;	
 	right: 0px;
 }
+
+*/
 
 footer {
 	float: bottom;
