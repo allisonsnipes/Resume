@@ -3,7 +3,6 @@
 	color: black;
 	background-color: #beige;
 	margin: 20px 10px 20px 10px;
-	overflow-wrap: break-word;
 }
 
 header {
@@ -30,11 +29,8 @@ main {
 	padding: 5px;	
 }
 
-
-
 footer {
-	float: bottom;
+	/*float: bottom; get rid of this,  work on clearing, take out of the floats*/
 	width: 100%;
 	left:0px;
-	bottom:0px;
 }
