@@ -11,9 +11,11 @@ header {
 
 .blockLeft {
 	float:left;
+	display: left;
 }
 .blockRight {
 	float:right;
+	display: right;
 }
 
 
