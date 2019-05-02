@@ -32,7 +32,6 @@ main {
 }
 
 footer {
-	/*float: bottom; get rid of this,  work on clearing, take out of the floats*/
 	width: 100%;
 	left:0px;
 }
