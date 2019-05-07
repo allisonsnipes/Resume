@@ -40,6 +40,11 @@ img {
 		padding: 14px 16px;
 		text-decoration: none;
 	}
+
+	div {
+		display: inline-block;
+		margin: auto;
+	}
 }
 
 /* On screens that are 600px wide or less, the background color is olive */
@@ -47,5 +52,11 @@ img {
 	.navbar {
 		float: none;
 		width: 100%;
+	}
+
+	div {
+		float: left;
+		display: block;
+		margin: auto;
 	}
 }
