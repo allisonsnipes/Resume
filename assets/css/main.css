@@ -1,7 +1,10 @@
-*{
+* {
 	font-family: 'Quicksand', sans-serif;
 	color: black;
-	background-color: #beige;
+}
+
+body {
+	background-color: beige;
 }
 
 
@@ -22,4 +25,27 @@ footer {
 	left:0px;
 }
 
+img {
+	height: 300px;
+	width: 400px;
+}
+
 /* media query for mobile and desktop design */
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+	.navbar {
+		float: left;
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+	.navbar {
+		float: none;
+		width: 100%;
+	}
+}
